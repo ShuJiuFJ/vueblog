@@ -1,4 +1,4 @@
-import Vue from 'vue'
+﻿import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -16,7 +16,7 @@ import axios from 'axios'
 //挂载axios
 Vue.prototype.$axios = axios
 //设置访问路径
-axios.defaults.baseURL = "http://47.92.36.72:8081"
+axios.defaults.baseURL = "http://localhost:8081"
 
 
 
